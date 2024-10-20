@@ -6,10 +6,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* 1170px ----> first break point */
 
 html,
 body {
   background-color: #fffaff;
   font-family: "Kanit", "Open Sans";
+  scroll-behavior: smooth;
 }

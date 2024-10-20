@@ -1,0 +1,42 @@
+
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+    h2 {
+        font-weight: 400;
+        font-size: 2em;
+    }
+
+    .line {
+        width: 20rem;
+        height: 4px;
+        background-color: black;
+        border-radius: 2px;
+    }
+
+}
+
+.detail-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    gap: 0.6em;
+
+    h4 {
+        text-transform: capitalize;
+        font-weight: 300;
+
+    }
+}
