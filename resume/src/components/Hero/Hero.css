@@ -3,9 +3,9 @@
     align-items: flex-start;
     justify-content: space-evenly;
     gap: 5rem;
-    margin: 3rem auto;
+    margin: 3.5rem auto;
     flex-wrap: wrap;
-    height: 100dvh;
+    height: 78dvh;
 }
 
 .profile-text {
