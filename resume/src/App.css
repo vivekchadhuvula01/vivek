@@ -8,6 +8,13 @@
 }
 
 /* 1170px ----> first break point */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
 
 html,
 body {
