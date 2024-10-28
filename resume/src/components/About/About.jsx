@@ -6,7 +6,7 @@ import { RiVerifiedBadgeFill } from "react-icons/ri";
 const About = () => {
     return (
         <>
-            <section className='main-body'>
+            <section id='about' className='main-body'>
                 <h2>About </h2>
                 <span className='line'></span>
             </section>

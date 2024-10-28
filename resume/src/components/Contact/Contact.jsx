@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
     return (
         <>
-            <section className='main-body'>
+            <section id='contact' className='main-body'>
                 <h2>Contact </h2>
                 <span className='line'></span>
             </section>

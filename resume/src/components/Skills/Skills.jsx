@@ -5,7 +5,7 @@ import { MdVerified } from "react-icons/md";
 const Skills = () => {
     return (
         <>
-            <section className='main-body-skills'>
+            <section id='skills' className='main-body-skills'>
                 <h2>SKills </h2>
                 <span className='line'></span>
             </section>

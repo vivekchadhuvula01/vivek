@@ -20,12 +20,13 @@ nav {
         gap: 3em;
         margin: 0 6em;
 
-        li {
+        li .link {
             list-style: none;
             cursor: pointer;
             text-transform: uppercase;
+            color: #b1b1b1;
 
         }
-        
+
     }
 }

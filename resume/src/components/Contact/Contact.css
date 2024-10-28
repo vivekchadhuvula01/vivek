@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  
 
     .detail-box-contact {
         margin: 30px;
@@ -15,7 +16,7 @@
         gap: 5px;
         justify-content: center;
         width: 22rem;
-        height: 3.5rem;
+        height: 3rem;
         border: 2px solid black;
         border-radius: 0.8rem;
         a{

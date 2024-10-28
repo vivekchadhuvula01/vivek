@@ -1,6 +1,8 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/projects/Projects'
@@ -11,14 +13,17 @@ function App() {
 
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <BrowserRouter>
+        <header>
+          <Navbar />
+        </header>
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
 
     </>
   )
