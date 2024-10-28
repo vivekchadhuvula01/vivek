@@ -1,0 +1,27 @@
+.main .text {
+    font-size: 1.5rem;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .detail-box-contact {
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        width: 22rem;
+        height: 3.5rem;
+        border: 2px solid black;
+        border-radius: 0.8rem;
+        a{
+            font-size: 1.2rem;
+        }
+    }
+
+
+}
