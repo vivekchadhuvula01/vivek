@@ -1,0 +1,66 @@
+.main-body-skills {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+    h2 {
+        font-weight: 400;
+        font-size: 2em;
+    }
+
+    .line {
+        width: 20rem;
+        height: 4px;
+        background-color: black;
+        border-radius: 2px;
+    }
+
+}
+
+.details-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .detail-box-skills {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 25rem;
+        height: 20rem;
+        border: 2px solid black;
+        border-radius: 0.8rem;
+
+        h4 {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        h3 {
+
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+
+        h5 {
+            font-size: 0.8rem;
+            font-weight: 300;
+        }
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+        margin: 1rem auto;
+
+        li {
+            font-weight: 400;
+        }
+    }
+}

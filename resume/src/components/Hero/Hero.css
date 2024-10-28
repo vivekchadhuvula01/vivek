@@ -19,6 +19,7 @@
     p {
         color: #050401a9;
         text-transform: none;
+        font-size: 2rem;
     }
 
     h2 {
@@ -85,6 +86,7 @@
 
     a {
         font-size: 2rem;
+        color: #050401;
     }
 
 }

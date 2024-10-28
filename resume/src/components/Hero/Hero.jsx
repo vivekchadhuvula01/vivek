@@ -19,8 +19,8 @@ const Hero = () => {
 
         </div>
         <div className='link'>
-          <a><FaGithub /></a>
-          <a><FaLinkedin /></a>
+          <a href='https://github.com/vivekchadhuvula01' target='_blank'><FaGithub /></a>
+          <a href='https://www.linkedin.com/in/vivek-chadhuvula/' target='_blank'><FaLinkedin /></a>
         </div>
       </div>
 
