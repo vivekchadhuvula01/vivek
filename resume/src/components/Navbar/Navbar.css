@@ -30,3 +30,9 @@ nav {
 
     }
 }
+
+@media (max-width: 1170px){
+    .nav-large{
+        display: none;
+    }
+}
