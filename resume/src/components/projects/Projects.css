@@ -52,3 +52,20 @@
         }
     }
 }
+@media (max-width: 670px) {
+    #projects h2 {
+        font-size: 2rem;
+    }
+    #projects .line {
+        width: 15rem;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+    }
+    #main p {
+        font-size: 0.9em;
+        font-weight: 350;
+        margin: auto 1.9rem;
+    }
+}

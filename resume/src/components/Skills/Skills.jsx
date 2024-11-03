@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <>
             <section id='skills' className='main-body-skills'>
-                <h2>SKills </h2>
+                <h2>Skills </h2>
                 <span className='line'></span>
             </section>
             <div className='details-skills'>

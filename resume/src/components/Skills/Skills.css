@@ -64,3 +64,37 @@
         }
     }
 }
+
+@media (max-width: 670px) {
+    #skills h2 {
+        font-size: 2rem;
+    }
+
+    #skills .line {
+        width: 15rem;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-box-skills {
+        flex-wrap: wrap;
+        height: 15rem;
+    }
+
+    .detail-box-skills h3 {
+        font-size: 1.8rem;
+        font-weight: 350;
+
+    }
+
+    .skills {
+        font-size: 0.9em;
+        font-weight: 350;
+        margin: auto 1.9rem;
+    }
+
+
+}

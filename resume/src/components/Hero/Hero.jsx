@@ -5,6 +5,7 @@ import profile from '../../assets/profile.jpg'
 import './Hero.css'
 const Hero = () => {
   return (
+    <>
     <section className='main-hero'>
       <div className='profile'>
         <img src={profile} alt="profile" />
@@ -24,7 +25,9 @@ const Hero = () => {
         </div>
       </div>
 
-    </section>
+      </section>
+
+    </>
   )
 }
 

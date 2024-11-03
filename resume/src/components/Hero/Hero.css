@@ -95,3 +95,86 @@
     transform: scale3d(2, 3);
 
 }
+
+
+@media (max-width: 670px) {
+    .main-hero {
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        gap: 2rem;
+        margin: 1.5rem auto;
+
+        .profile img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 3px solid #050401;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-text {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            text-transform: uppercase;
+            align-items: baseline;
+
+            p {
+                color: #050401a9;
+                text-transform: none;
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-weight: 400;
+                font-size: 2rem;
+            }
+
+            h4 {
+                color: #050401a9;
+                font-weight: 400;
+                font-size: larger;
+            }
+
+            .btn {
+                margin: 1.2rem;
+            }
+
+            .btn button {
+                padding: .8rem 1.5rem;
+                margin: 0 1rem;
+                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+                border: 3px solid #050401;
+                border-radius: 1.5rem;
+                font-size: 13px;
+                cursor: pointer;
+            }
+
+            .btn .hire {
+                background-color: #fffaff;
+                color: #050401;
+            }
+
+            .btn .resume {
+                background-color: #050401;
+                color: #fffaff;
+            }
+
+            .btn .hire:hover {
+                background-color: #050401;
+                color: #fffaff;
+            }
+
+            .btn .resume:hover {
+                background-color: #fffaff;
+                color: #050401;
+            }
+        }
+
+        .link {
+            margin: 0 auto;
+        }
+    }
+}

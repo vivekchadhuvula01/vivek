@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
 import './Navbar.css'
+// import { IoMenu } from "react-icons/io5";
 import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar = () => {
     return (
+        <>
         <nav className='nav-large'>
             <img src={logo} alt="logo" />
             <ul >
@@ -27,7 +29,12 @@ const Navbar = () => {
 
             </ul>
 
-        </nav>
+            </nav>
+            <nav className='mobile'>
+            {/* `    <IoMenu fontSize={'2rem'} />` */}
+                
+            </nav>    
+        </>
     )
 }
 

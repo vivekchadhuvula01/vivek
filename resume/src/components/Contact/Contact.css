@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 
     .detail-box-contact {
         margin: 30px;
@@ -19,10 +19,39 @@
         height: 3rem;
         border: 2px solid black;
         border-radius: 0.8rem;
-        a{
+
+        a {
             font-size: 1.2rem;
         }
     }
 
+
+}
+
+@media (max-width: 670px) {
+    #contact h2 {
+        font-size: 2rem;
+    }
+
+    #contact .line {
+        width: 15rem;
+    }
+
+    .main p {
+        font-size: 0.6em;
+        font-weight: 350;
+        margin: auto ;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .detail-box-contact {
+        width: 19rem;
+        font-size: 1rem;
+    }
 
 }

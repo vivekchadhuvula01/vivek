@@ -1,4 +1,5 @@
-nav {
+.nav-large {
+
     background-color: #050401;
     display: flex;
     justify-content: space-between;
@@ -31,8 +32,18 @@ nav {
     }
 }
 
-@media (max-width: 1170px){
-    .nav-large{
+.mobile {
+    display: none;
+}
+
+@media (max-width: 670px) {
+    .nav-large {
         display: none;
+    }
+
+    .mobile {
+        display: flex;
+        height: 3rem;
+
     }
 }
